@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/ICONE_TRANSPARENTE_2.png" type="image/x-icon">
+    <title>Dra. Marilia Rafael</title>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Quicksand:wght@400;500;700&family=Unna:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+body {
+    background: rgb(250, 236, 228);
+}
+
+a {
+    color: rgb(250, 236, 228);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h1 {
+    color: rgb(44, 60, 78);
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.imgemailenviado {
+    width: 240px;
+    height: 400px;
+    opacity: 0.8;
+}
+
+.containerenviado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.assinatura {
+    width: 450px;
+    height: 150px;
+}
+
+.voltar{
+    background: linear-gradient(to right, rgb(44, 60, 78), rgba(44, 60, 78, 0.8));
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px rgb(44, 60, 78);
+    font-size: 1rem;
+}
+
+
+@media (max-width: 426px) {
+    h1 {
+        font-size: 18px;
+    }
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="containerenviado">
+        <h1>E-mail enviado com sucesso.</h1>
+        <img class="imgemailenviado" src="./img/7.png" alt="">
+        <button class="voltar"><a href="./index.html">Voltar</a></button>
+        <img  class="assinatura" src="./img/ASSINATURA_EMAIL.jpg" alt="">
+    </div>
+
+
+</body>
+</html>
